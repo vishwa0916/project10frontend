@@ -52,7 +52,7 @@ function ResetPasswordpage(props) {
     }
 
     const fetchpassword = await fetch(
-      "https://project10backend.onrender.com/api/resetpasswordpage",
+      "https://one0-53cx.onrender.com/api/resetpasswordpage",
       {
         method: "post",
 
