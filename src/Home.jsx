@@ -66,7 +66,7 @@ function Home() {
 
     https: try {
       const regResponce = await fetch(
-        "https://project10backend.onrender.com/api/user/register",
+        "https://one0-53cx.onrender.com/api/user/register",
         {
           method: "post",
           headers: {
@@ -103,7 +103,7 @@ function Home() {
     }
 
     const loginRes = await fetch(
-      "https://project10backend.onrender.com/api/user/login",
+      "https://one0-53cx.onrender.com/api/user/login",
       {
         method: "post",
         headers: {
@@ -138,7 +138,7 @@ function Home() {
       }
 
       const forgetFetch = await fetch(
-        "https://project10backend.onrender.com/api/resetpassword",
+        "https://one0-53cx.onrender.com/api/resetpassword",
         {
           method: "post",
           headers: {
@@ -181,7 +181,7 @@ function Home() {
   const fetchdata = async () => {
     try {
       const responce = await fetch(
-        "https://project10backend.onrender.com/api/getuser",
+        "https://one0-53cx.onrender.com/api/getuser",
         {
           method: "get",
           headers: {
