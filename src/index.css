@@ -1,0 +1,84 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+
+    list-style: none;
+
+}
+
+h1 {
+    color: darkred;
+    font-weight: bolder;
+    font-family: cursive
+}
+
+.main {
+
+height: 100vh;
+    background-color: lightcyan
+}
+
+
+.register {
+
+
+    background-color: antiquewhite;
+
+    border-radius: 50px;
+
+
+}
+
+.login {
+
+
+    background-color: burlywood;
+
+    border-radius: 50px;
+
+
+}
+
+.resetmain {
+
+    background-color: lightseagreen;
+    height: 100vh;
+    padding-top: 3%;
+
+}
+
+.resetpage {
+
+    width: 70%;
+    padding: 8%;
+    background-color: lightskyblue;
+    border-radius: 30% 20%;
+
+
+}
+
+.forget{
+
+    cursor: pointer;
+    color:wheat;
+
+
+}
+
+.forget:hover{
+
+cursor: pointer;
+color: azure;
+
+
+}
+.forget:active{
+
+color: red;
+
+}
